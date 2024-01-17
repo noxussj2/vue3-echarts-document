@@ -1,7 +1,7 @@
 {
     "devDependencies": {
         "@documate/documate": "^0.2.1",
-        "vitepress": "^1.0.0-rc.25"
+        "vitepress": "^1.0.0-rc.37"
     },
     "scripts": {
         "dev": "vitepress dev src/views --host",

@@ -3,35 +3,32 @@
 layout: home
 
 hero:
-    name: '菜园前端'
-    text: '小白都能看懂的笔记'
-    tagline: 推荐在 PC 端进行访问
+    name: 'Vue3 Echarts'
+    text: '开箱即用的图表组件库'
+    tagline: 无需关心图表实现，只需专注于数据和业务
     image:
         src: /logo.png
     actions:
         - theme: brand
-          text: 开始学习
-          link: /lines/
+          text: 快速上手
+          link: /guide/getting-started/
         - theme: alt
           text: 修订记录
           link: /revise/2023
-        - theme: alt
-          text: 在线 Visual Studio Code
-          link: /vscode/
 
 features:
-    - icon: 🔥
-      title: 高质量笔记
-      details: 提供了 200+ 篇高质量笔记，持续更新。
-    - icon: 🌸
-      title: 站内技术解答
-      details: 由于笔记都是博主亲自写的，如有疑问的地方博主可以为你解答。
-    - icon: ✨
-      title: 学习路线
-      details: 针对前端小白提供了学习路线，能够让您清晰认识到前端的整个架构体系。
-    - icon: ⚡️
-      title: 节省时间
-      details: 您应该更专注去学习，不需要在写笔记和找笔记的过程花费大量时间，最后还有可能写的不好。
+    - icon: 🚀
+      title: 使用简单
+      details: 直接导入组件，传入数据即可渲染图表，无需关心图表实现。
+    - icon: 🚦
+      title: 无门槛
+      details: 即使不懂 Echarts 也可以做出来炫酷的图表
+    - icon: 🍉
+      title: 丰富图表
+      details: 满足大部分图表需求，后续会持续更新
+    - icon: 💖
+      title: 轻量化
+      details: 源码体积仅有 80kb 
 ---
 
 <BaseCount />
@@ -44,6 +41,4 @@ import BaseComment from '@/components/BaseComment.vue'
 import { loginRead } from '@/utils/login-read'
 
 loginRead('n10001')
-
-// console.log(123)
 </script>

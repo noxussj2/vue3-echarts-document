@@ -8,7 +8,7 @@ import { init } from './waline.mjs'
 import './waline.css'
 
 const serverURL = 'https://vercel.noxussj.top'
-const path = typeof window !== 'undefined' && window.location.pathname
+const path = typeof window !== 'undefined' && window.location.pathname + '/vue3-echarts/'
 
 onMounted(() => {
     init({
