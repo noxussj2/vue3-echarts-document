@@ -1,11 +1,11 @@
 <template>
-    <div id="waline"></div>
+    <div id="waline" />
 </template>
 
 <script lang="ts" setup>
 import { onMounted } from 'vue'
-import { init } from './waline.mjs'
-import './waline.css'
+import { init } from '../plugins/waline.mjs'
+import '../plugins/waline.css'
 
 const serverURL = 'https://vercel.noxussj.top'
 const path = typeof window !== 'undefined' && window.location.pathname + '/v3-echarts/'
@@ -13,7 +13,7 @@ const path = typeof window !== 'undefined' && window.location.pathname + '/v3-ec
 onMounted(() => {
     init({
         el: '#waline',
-        serverURL: serverURL,
+        serverURL,
         reaction: true,
         path
     })

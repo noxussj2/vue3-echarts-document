@@ -33,7 +33,7 @@ export default defineConfig({
     /**
      * 描述
      */
-    description: '前端学习笔记分享，小白都能看懂的笔记',
+    description: 'V3 Echarts 开箱即用的图表组件库',
 
     /**
      * 网站图标
@@ -101,6 +101,6 @@ export default defineConfig({
         /**
          * github 地址
          */
-        socialLinks: [{ icon: 'github', link: 'https://github.com/noxussj2' }]
+        socialLinks: [{ icon: 'github', link: 'https://github.com/noxussj2/vue3-echarts' }]
     }
 })

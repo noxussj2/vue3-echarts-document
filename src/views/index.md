@@ -13,8 +13,8 @@ hero:
           text: 快速上手
           link: /guide/getting-started/
         - theme: alt
-          text: 修订记录
-          link: /revise/2023
+          text: 组件库
+          link: /components/
 
 features:
     - icon: 🚀
