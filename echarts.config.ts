@@ -1,28 +1,3 @@
-# 全局配置文件
-
-:::warning 注意
-配置文件 `echarts.config.ts` 中的属性名称都是固定好的，不可随意修改。只需要修改属性值即可。
-:::
-
-## 引入配置文件
-
-首先在项目根目录中创建 `echarts.config.ts` 文件，然后在 `main.ts` 中引入该文件即可。
-
-:::code-group
-
-```ts [main.ts]
-import '../echarts.config.ts'
-```
-
-## 创建配置文件
-
-:::
-
-请手动复制配置文件内容到 `echarts.config.ts` 中。
-
-:::code-group
-
-```ts [echarts.config.ts]
 import { loadStyle } from 'v3-echarts'
 
 let $color = {
@@ -295,6 +270,3 @@ loadStyle({
     $vertical,
     $legend
 })
-```
-
-:::

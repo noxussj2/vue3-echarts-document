@@ -8,6 +8,7 @@ import './style.css'
 import registerElementPlus from '@/plugins/element-plus'
 import globalComponents from '@/registered/global'
 import './visitor' // 访客登记
+import "../../../../echarts.config"
 
 /**
  * 注册全局样式
