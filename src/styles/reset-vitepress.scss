@@ -1,0 +1,143 @@
+// 重写 vitepress 样式
+
+// 重写 Ask AI 样式
+.dialog-container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .dialog-panel {
+        max-width: 100%;
+        width: 60vh;
+    }
+
+    .combobox-options,
+    .result-not-found {
+        height: 70vh;
+        max-height: 70vh;
+    }
+
+    .markdown-body {
+        padding: 6px;
+        border-radius: 0.75rem;
+    }
+}
+
+// 代码块换行
+.pre code {
+    white-space: pre-wrap;
+}
+
+// 内容区域加宽
+@media (min-width: 1440px) {
+    .layout-lines {
+        .VPContent {
+            .container {
+                max-width: unset !important;
+
+                > .content {
+                    padding: 0;
+                    max-width: 1104px;
+
+                    .content-container {
+                        max-width: 1104px;
+                    }
+                }
+            }
+        }
+    }
+    // .VPDoc:not(.has-sidebar) {
+    //     .container[data-v-da69c9d5] {
+    //         // max-width: unset;
+
+    //         > .content {
+    //             padding: 0;
+    //             max-width: 1104px;
+
+    //             .content-container {
+    //                 max-width: 1104px;
+    //             }
+    //         }
+    //     }
+    // }
+}
+
+// 自定义徽章样式
+.VPBadge.stage1 {
+    color: rgba(235, 235, 245, 0.6);
+    background-color: rgba(235, 235, 245, 0.16);
+    vertical-align: middle;
+}
+
+.VPBadge.stage2 {
+    color: rgba(255, 156, 25, 0.6);
+    background-color: rgba(255, 156, 25, 0.16);
+    vertical-align: middle;
+}
+
+.VPBadge.stage3 {
+    color: rgba(255, 255, 245, 0.86);
+    background-color: rgba(255, 255, 245, 0.16);
+    vertical-align: middle;
+}
+
+.VPBadge.stage4 {
+    color: rgba(255, 156, 25, 1);
+    background-color: rgba(255, 156, 25, 0.16);
+    vertical-align: middle;
+}
+
+.VPBadge.stage5 {
+    color: rgba(31, 192, 204, 1);
+    background-color: rgba(31, 192, 204, 0.16);
+    vertical-align: middle;
+}
+
+.VPBadge.stage6 {
+    color: rgba(41, 204, 133, 1);
+    background-color: rgba(41, 204, 133, 0.16);
+    vertical-align: middle;
+}
+
+.VPBadge.stage7 {
+    color: rgba(101, 92, 230, 1);
+    background-color: rgba(101, 92, 230, 0.16);
+    vertical-align: middle;
+}
+
+.VPBadge.stage8 {
+    color: rgba(151, 65, 217, 1);
+    background-color: rgba(151, 65, 217, 0.16);
+    vertical-align: middle;
+}
+
+.VPBadge.stage9 {
+    color: rgba(255, 88, 76, 1);
+    background-color: rgba(255, 88, 76, 0.16);
+    vertical-align: middle;
+}
+
+.VPBadge.stage10 {
+    color: rgba(0, 110, 255, 1);
+    background-color: rgba(0, 110, 255, 0.16);
+    vertical-align: middle;
+}
+
+// 简单、中等、困难
+.VPBadge.level1 {
+    color: rgba(41, 204, 133, 1);
+    background-color: rgba(41, 204, 133, 0.16);
+    vertical-align: middle;
+}
+.VPBadge.level2 {
+    color: rgba(255, 156, 25, 1);
+    background-color: rgba(255, 156, 25, 0.16);
+    vertical-align: middle;
+}
+.VPBadge.level3 {
+    color: rgba(255, 88, 76, 1);
+    background-color: rgba(255, 88, 76, 0.16);
+    vertical-align: middle;
+}

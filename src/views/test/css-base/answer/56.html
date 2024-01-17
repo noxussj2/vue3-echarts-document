@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <style>
+            /* 创建动画 */
+            @keyframes myMove {
+                /* 动画0%时候的状态 */
+                0% {
+                    transform: translateX(0);
+                }
+
+                50% {
+                    transform: translateX(300px);
+                }
+
+                /* 动画100%时候的状态 */
+                100% {
+                    transform: translateX(300px) translateY(300px);
+                }
+            }
+
+            .box1 {
+                width: 100px;
+                height: 100px;
+                background-color: #5cd8a2;
+                animation: myMove 5s linear 0s infinite alternate;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box1"></div>
+    </body>
+</html>

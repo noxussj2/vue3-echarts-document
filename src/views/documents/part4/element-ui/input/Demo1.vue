@@ -1,0 +1,15 @@
+<template>
+    <el-input v-model="input" placeholder="请输入内容" />
+</template>
+
+<script lang="ts" setup>
+import { ref } from 'vue'
+
+const input = ref('')
+</script>
+
+<style lang="scss" scoped>
+.el-input {
+    width: 200px;
+}
+</style>

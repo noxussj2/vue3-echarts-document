@@ -1,0 +1,26 @@
+{
+    "devDependencies": {
+        "@documate/documate": "^0.2.1",
+        "vitepress": "^1.0.0-rc.25"
+    },
+    "scripts": {
+        "dev": "vitepress dev src/views --host",
+        "build": "vitepress build src/views",
+        "preview": "vitepress preview src/views",
+        "upload": "gulp upload"
+    },
+    "dependencies": {
+        "@icon-park/vue-next": "^1.4.2",
+        "@types/node": "^20.8.4",
+        "@types/qs": "^6.9.8",
+        "@waline/client": "^2.15.8",
+        "axios": "^1.5.1",
+        "element-plus": "^2.3.14",
+        "gulp": "^4.0.2",
+        "gulp-sftp-up4": "^0.1.8",
+        "highlight.js": "^11.9.0",
+        "markdown-it": "^13.0.2",
+        "qs": "^6.11.2",
+        "sass": "^1.69.0"
+    }
+}

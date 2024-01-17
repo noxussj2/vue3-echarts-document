@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div>
+            用户名：<input type="text" id="input" />
+            <button onclick="handleLogin()">登录</button>
+        </div>
+
+        <script>
+            var username = localStorage.getItem('username')
+            if (username) alert('当前登录的用户为：' + username)
+
+            function handleLogin(e) {
+                var dom = document.getElementById('input')
+                localStorage.setItem('username', dom.value)
+                alert('当前登录的用户为：' + dom.value)
+            }
+        </script>
+    </body>
+</html>

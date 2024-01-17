@@ -1,0 +1,36 @@
+<template>
+    <div class="demo">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+    </div>
+</template>
+
+<style lang="scss" scoped>
+.demo {
+    background-color: #eee;
+    display: flex;
+}
+
+.box {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    flex-basis: 350px;
+    background-color: #5cd8a2;
+}
+
+.box2 {
+    flex-grow: 1;
+    background-color: #ffcb3d;
+}
+
+.box3 {
+    flex-grow: 1;
+    background-color: #ff8077;
+}
+</style>
