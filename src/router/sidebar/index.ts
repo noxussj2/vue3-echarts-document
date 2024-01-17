@@ -20,7 +20,7 @@ const sidebar = {
                     items: []
                 },
                 {
-                    text: '优化图表',
+                    text: '组件传参 props',
                     collapsable: false,
                     link: '/guide/parameter/',
                     items: []

@@ -4,13 +4,8 @@ const nav: any = [
         link: '/guide/getting-started/'
     },
     {
-        text: 'API',
-        link: '/api/',
-        items: []
-    },
-    {
-        text: '🍓在线示例',
-        link: '/demo/',
+        text: '🍓组件库',
+        link: '/components/',
         items: []
     },
     {

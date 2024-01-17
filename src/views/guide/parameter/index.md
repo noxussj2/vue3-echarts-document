@@ -3,7 +3,7 @@ import EchartsBarx from './demo/echarts-barx.vue'
 import EchartsBarx2 from './demo/echarts-barx2.vue'
 </script>
 
-# 优化图表
+# 组件传参 props
 
 当我们渲染了一个图表之后，并不是所有的图表都能够满足我们的需求，有时候我们需要对图表进行一些优化，比如修改图表的颜色、修改图表的大小等等。
 
