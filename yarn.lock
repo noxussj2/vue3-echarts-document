@@ -421,6 +421,13 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.9.5.tgz#10491ccf4f63c814d4149e0316541476ea603602"
   integrity sha512-1q+mykKE3Vot1kaFJIDoUFv5TuW+QQVaf2FmTT9krg86pQrGStOSJJ0Zil7CFagyxDuouTepzt5Y5TVzyajOdQ==
 
+"@types/echarts@^4.9.16":
+  version "4.9.22"
+  resolved "https://registry.yarnpkg.com/@types/echarts/-/echarts-4.9.22.tgz#b584fd3d312f106dd8cacb53f689573a6953d822"
+  integrity sha512-7Fo6XdWpoi8jxkwP7BARUOM7riq8bMhmsCtSG8gzUcJmFhLo387tihoBYS/y5j7jl3PENT5RxeWZdN9RiwO7HQ==
+  dependencies:
+    "@types/zrender" "*"
+
 "@types/estree@1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-1.0.5.tgz#a6ce3e556e00fd9895dd872dd172ad0d4bd687f4"
@@ -477,6 +484,11 @@
   version "0.0.20"
   resolved "https://registry.npmmirror.com/@types/web-bluetooth/-/web-bluetooth-0.0.20.tgz#f066abfcd1cbe66267cdbbf0de010d8a41b41597"
   integrity sha512-g9gZnnXVq7gM7v3tJCWV/qw7w+KeOlSHAhgF9RytFyifW6AF61hdT2ucrYhPq9hLs5JIryeupHV3qGk95dH9ow==
+
+"@types/zrender@*":
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/@types/zrender/-/zrender-4.0.6.tgz#742dcf00ee0e9f9683391b3b897fd688559e2cdb"
+  integrity sha512-1jZ9bJn2BsfmYFPBHtl5o3uV+ILejAtGrDcYSpT4qaVKEI/0YY+arw3XHU04Ebd8Nca3SQ7uNcLaqiL+tTFVMg==
 
 "@vitejs/plugin-vue@^5.0.3":
   version "5.0.3"
@@ -1508,6 +1520,14 @@ eastasianwidth@^0.2.0:
   version "0.2.0"
   resolved "https://registry.npmmirror.com/eastasianwidth/-/eastasianwidth-0.2.0.tgz#696ce2ec0aa0e6ea93a397ffcf24aa7840c827cb"
   integrity sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==
+
+echarts@^5.4.3:
+  version "5.4.3"
+  resolved "https://registry.yarnpkg.com/echarts/-/echarts-5.4.3.tgz#f5522ef24419164903eedcfd2b506c6fc91fb20c"
+  integrity sha512-mYKxLxhzy6zyTi/FaEbJMOZU1ULGEQHaeIeuMR5L+JnJTpz+YR03mnnpBhbR4+UYJAgiXgpyTVLffPAjOTLkZA==
+  dependencies:
+    tslib "2.3.0"
+    zrender "5.4.4"
 
 element-plus@^2.3.14:
   version "2.4.2"
@@ -3951,6 +3971,11 @@ to-through@^2.0.0:
   dependencies:
     through2 "^2.0.3"
 
+tslib@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
+  integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
+
 type@^1.0.1:
   version "1.2.0"
   resolved "https://registry.npmmirror.com/type/-/type-1.2.0.tgz#848dd7698dafa3e54a6c479e759c4bc3f18847a0"
@@ -4047,6 +4072,16 @@ util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.npmmirror.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
+
+v3-echarts@^0.0.1-beta:
+  version "0.0.1-beta"
+  resolved "https://registry.yarnpkg.com/v3-echarts/-/v3-echarts-0.0.1-beta.tgz#ff747b309071199218d73fcf3fab1ffcfb784dc7"
+  integrity sha512-BEEicgV2yWK7u+sp4CPcv9kZmi50vqbzyyzshqJM7HKgH10SBs/11jOPA+wcClE8hP21X5tlSrWZttGf6Y55Vg==
+  dependencies:
+    "@types/echarts" "^4.9.16"
+    echarts "^5.4.3"
+    lodash-es "^4.17.21"
+    vue "^3.3.10"
 
 v8flags@^3.2.0:
   version "3.2.0"
@@ -4162,6 +4197,17 @@ vue-demi@*, vue-demi@>=0.14.6:
   resolved "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.14.6.tgz#dc706582851dc1cdc17a0054f4fec2eb6df74c92"
   integrity sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==
 
+vue@^3.3.10, vue@^3.4.14:
+  version "3.4.14"
+  resolved "https://registry.yarnpkg.com/vue/-/vue-3.4.14.tgz#d7d3a3fe6b2e901e5b2ce583e11102c958ab87f2"
+  integrity sha512-Rop5Al/ZcBbBz+KjPZaZDgHDX0kUP4duEzDbm+1o91uxYUNmJrZSBuegsNIJvUGy+epLevNRNhLjm08VKTgGyw==
+  dependencies:
+    "@vue/compiler-dom" "3.4.14"
+    "@vue/compiler-sfc" "3.4.14"
+    "@vue/runtime-dom" "3.4.14"
+    "@vue/server-renderer" "3.4.14"
+    "@vue/shared" "3.4.14"
+
 vue@^3.3.4:
   version "3.3.8"
   resolved "https://registry.npmmirror.com/vue/-/vue-3.3.8.tgz#532ff071af24f6a69e5ecc53a66858a9ee874ffc"
@@ -4172,17 +4218,6 @@ vue@^3.3.4:
     "@vue/runtime-dom" "3.3.8"
     "@vue/server-renderer" "3.3.8"
     "@vue/shared" "3.3.8"
-
-vue@^3.4.14:
-  version "3.4.14"
-  resolved "https://registry.yarnpkg.com/vue/-/vue-3.4.14.tgz#d7d3a3fe6b2e901e5b2ce583e11102c958ab87f2"
-  integrity sha512-Rop5Al/ZcBbBz+KjPZaZDgHDX0kUP4duEzDbm+1o91uxYUNmJrZSBuegsNIJvUGy+epLevNRNhLjm08VKTgGyw==
-  dependencies:
-    "@vue/compiler-dom" "3.4.14"
-    "@vue/compiler-sfc" "3.4.14"
-    "@vue/runtime-dom" "3.4.14"
-    "@vue/server-renderer" "3.4.14"
-    "@vue/shared" "3.4.14"
 
 which-module@^1.0.0:
   version "1.0.0"
@@ -4282,3 +4317,10 @@ yargs@^7.1.0:
     which-module "^1.0.0"
     y18n "^3.2.1"
     yargs-parser "^5.0.1"
+
+zrender@5.4.4:
+  version "5.4.4"
+  resolved "https://registry.yarnpkg.com/zrender/-/zrender-5.4.4.tgz#8854f1d95ecc82cf8912f5a11f86657cb8c9e261"
+  integrity sha512-0VxCNJ7AGOMCWeHVyTrGzUgrK4asT4ml9PEkeGirAkKNYXYzoPJCLvmyfdoOXcjTHPs10OZVMfD1Rwg16AZyYw==
+  dependencies:
+    tslib "2.3.0"

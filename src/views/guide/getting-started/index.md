@@ -11,17 +11,17 @@ import EchartsBarx from './demo/echarts-barx.vue'
 :::code-group
 
 ```sh [npm]
-npm install vue3-echarts
+npm install v3-echarts
 ```
 
 ```sh [yarn]
-yarn add vue3-echarts
+yarn add v3-echarts
 ```
 
 :::
 
 :::tip 提示
-`vue3-echarts` 源码采用 `ts` + `esm` 编写，请确保您的项目支持 `esm` 模块并使用 `import` 进行导入它。
+`v3-echarts` 源码采用 `ts` + `esm` 编写，请确保您的项目支持 `esm` 模块并使用 `import` 进行导入它。
 :::
 
 ## 使用
@@ -37,7 +37,7 @@ yarn add vue3-echarts
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { EChartsBarx } from 'vue3-echarts'
+import { EChartsBarx } from 'v3-echarts'
 
 const data = ref({
     axis: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子'],
@@ -64,4 +64,4 @@ const data = ref({
 
 ## 更多
 
-后续章节将会详细介绍 `vue3-echarts` 有哪些可用的图表，以及图表的传入参数。
+后续章节将会详细介绍 `v3-echarts` 有哪些可用的图表，以及图表的传入参数。
