@@ -18,7 +18,7 @@ const data = ref({
 
 const opt = {
     tooltip: {
-        valueFormatter(value: number) {
+        valueFormatter (value: number) {
             return value + ' 件'
         }
     }

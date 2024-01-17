@@ -1,6 +1,7 @@
 import { loadStyle } from 'v3-echarts'
 
-let $color = {
+const $color = {
+
     /**
      * 主题色-深色模式
      */
@@ -47,7 +48,8 @@ let $color = {
     yAxisLine: 'rgba(142, 245, 254, 0.1)'
 }
 
-let $fontSize = {
+const $fontSize = {
+
     /**
      * 标题/副标题
      */
@@ -82,7 +84,8 @@ let $fontSize = {
 /**
  * 容器内边距
  */
-let $grid = {
+const $grid = {
+
     /**
      * 上
      */
@@ -112,7 +115,8 @@ let $grid = {
 /**
  * 提示框风格
  */
-let $tooltip = {
+const $tooltip = {
+
     /**
      * 背景色
      */
@@ -139,7 +143,8 @@ let $tooltip = {
 /**
  * 图例风格
  */
-let $legend = {
+const $legend = {
+
     /**
      * 控制图例默认是否显示
      */
@@ -187,7 +192,7 @@ let $legend = {
 /**
  * 纵向坐标轴风格
  */
-let $vertical = {
+const $vertical = {
     xAxis: {
         type: 'category',
         axisTick: {
@@ -236,7 +241,7 @@ let $vertical = {
 /**
  * 横向坐标轴风格
  */
-let $horizontal = {
+const $horizontal = {
     xAxis: {
         type: 'value',
         axisLabel: {

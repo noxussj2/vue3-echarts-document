@@ -11,16 +11,25 @@
     },
     "dependencies": {
         "@icon-park/vue-next": "^1.4.2",
+        "@rushstack/eslint-patch": "^1.7.0",
         "@types/node": "^20.8.4",
         "@types/qs": "^6.9.8",
+        "@vue/eslint-config-typescript": "^12.0.0",
         "@waline/client": "^2.15.8",
         "axios": "^1.5.1",
         "element-plus": "^2.3.14",
+        "eslint": "^8.56.0",
+        "eslint-config-standard-with-typescript": "^43.0.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-n": "^16.6.2",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-vue": "^9.20.1",
         "gulp": "^4.0.2",
         "gulp-sftp-up4": "^0.1.8",
         "highlight.js": "^11.9.0",
         "markdown-it": "^13.0.2",
         "qs": "^6.11.2",
-        "sass": "^1.69.0"
+        "sass": "^1.69.0",
+        "typescript": "^5.3.3"
     }
 }

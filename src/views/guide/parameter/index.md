@@ -41,7 +41,7 @@ import EchartsBarx2 from './demo/echarts-barx2.vue'
 
 ```vue
 <template>
-    <echarts-barx :barWidth="30" :data="data" height="300px" />
+    <echarts-barx :bar-width="30" :data="data" height="300px" />
 </template>
 ```
 

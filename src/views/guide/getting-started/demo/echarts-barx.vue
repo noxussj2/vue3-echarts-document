@@ -1,10 +1,10 @@
 <template>
-    <echarts-barx :data="data" height="300px" />
+    <echarts-barx height="300px" :data="data" />
 </template>
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { EchartsBarx } from "v3-echarts"
+import { EchartsBarx } from 'v3-echarts'
 
 const data = ref({
     axis: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子'],
