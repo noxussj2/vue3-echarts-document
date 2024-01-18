@@ -46,17 +46,9 @@
             </app-card>
         </app-flex>
 
-        <app-flex basis="33.333333%">
-            <app-card title="echarts-barx-background">
-                <echarts-barx-background />
-            </app-card>
-        </app-flex>
+        <app-flex basis="33.333333%" />
 
-        <app-flex basis="33.333333%">
-            <app-card title="echarts-barx-background">
-                <echarts-barx-background />
-            </app-card>
-        </app-flex>
+        <app-flex basis="33.333333%" />
     </app-flex>
 </template>
 

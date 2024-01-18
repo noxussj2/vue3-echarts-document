@@ -25,6 +25,10 @@
                 <echarts-line-gradient />
             </app-card>
         </app-flex>
+
+        <app-flex basis="33.333333%" />
+
+        <app-flex basis="33.333333%" />
     </app-flex>
 </template>
 
