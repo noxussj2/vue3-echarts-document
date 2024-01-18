@@ -1,5 +1,5 @@
 <template>
-    <echarts-barx :data="data" height="200px" />
+    <echarts-barx :data="data" height="200px" single-color :opt="opt" />
 </template>
 
 <script lang="ts" setup>
@@ -15,4 +15,10 @@ const data = ref({
         }
     ]
 })
+
+const opt = {
+    legend: {
+        show: false
+    }
+}
 </script>

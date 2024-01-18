@@ -11,12 +11,17 @@ import EchartsBarx2 from './demo/echarts-barx2.vue'
 
 ## 组件 `<echarts-barx />` 支持的参数
 
-| 参数     | 说明       | 类型     | 默认值 |
-| -------- | ---------- | -------- | ------ |
-| height   | 容器高度   | `string` | `100%` |
-| data     | 数据源     | `object` | `-`    |
-| color    | 柱状图颜色 | `array`  | `-`    |
-| barWidth | 柱状图宽度 | `number` | `15`   |
+| 参数            | 说明         | 类型       | 默认值  |
+| --------------- | ------------ | ---------- | ------- |
+| height          | 容器高度     | `string`   | `100%`  |
+| data            | 数据源       | `object`   | `-`     |
+| color           | 柱状图颜色   | `array`    | `-`     |
+| bar-width       | 柱状图宽度   | `number`   | `15`    |
+| stack           | 是否堆叠     | `boolean`  | `false` |
+| radius          | 圆角         | `number`   | `0`     |
+| single-color    | 是否独立颜色 | `boolean`  | `false` |
+| gradient-color  | 渐变颜色     | `string[]` | `[]`    |
+| show-background | 是否显示背景 | `boolean`  | `false` |
 
 ## 修改柱状图颜色
 

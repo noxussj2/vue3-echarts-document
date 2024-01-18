@@ -1,5 +1,5 @@
 <template>
-    <echarts-barx :data="data" height="200px" />
+    <echarts-barx :data="data" height="200px" :gradient-color="gradientColor" />
 </template>
 
 <script lang="ts" setup>
@@ -15,4 +15,6 @@ const data = ref({
         }
     ]
 })
+
+const gradientColor = ['#B392F0', '#E1E4E8']
 </script>

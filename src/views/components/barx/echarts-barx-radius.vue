@@ -1,5 +1,5 @@
 <template>
-    <echarts-barx :data="data" height="200px" />
+    <echarts-barx :data="data" height="200px" :radius="15" />
 </template>
 
 <script lang="ts" setup>
