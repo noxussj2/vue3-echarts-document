@@ -45,7 +45,12 @@ const $color = {
     /**
      * Y轴轴线颜色
      */
-    yAxisLine: 'rgba(142, 245, 254, 0.1)'
+    yAxisLine: 'rgba(142, 245, 254, 0.1)',
+
+    /**
+     * 数据文字颜色
+     */
+    seriesLabel: 'rgba(255, 255, 255, 1)'
 }
 
 const $fontSize = {
@@ -89,7 +94,7 @@ const $grid = {
     /**
      * 上
      */
-    top: 50,
+    top: 30,
 
     /**
      * 右
@@ -158,12 +163,12 @@ const $legend = {
     /**
      * 距离容器上边界的距离
      */
-    top: 10,
+    top: 0,
 
     /**
      * 距离容器右边界的距离
      */
-    right: 10,
+    right: 0,
 
     /**
      * 图形宽度
@@ -184,7 +189,7 @@ const $legend = {
      * 文字样式
      */
     textStyle: {
-        color: '#fff',
+        color: $color.legendLabel,
         fontSize: $fontSize.legendLabel
     }
 }
@@ -245,6 +250,7 @@ const $horizontal = {
     xAxis: {
         type: 'value',
         axisLabel: {
+            show: false,
             color: $color.xAxisLabel,
             fontSize: $fontSize.xAxisLabel
         },
