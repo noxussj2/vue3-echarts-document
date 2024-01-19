@@ -6,5 +6,5 @@
             "config/*": ["./config/*"]
         }
     },
-    "include": ["./src/views/.vitepress/**/*", "./src/**/*"]
+    "include": ["./src/views/.vitepress/**/*", "./src/**/*", "./src/views/components.d.ts"]
 }

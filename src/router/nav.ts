@@ -9,6 +9,11 @@ const nav: any = [
         items: []
     },
     {
+        text: '🌸API',
+        link: '/reference/barx/echarts-barx/',
+        items: []
+    },
+    {
         text: '0.0.1-beta',
         items: [
             {

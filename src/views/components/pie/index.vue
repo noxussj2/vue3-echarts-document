@@ -1,19 +1,31 @@
 <template>
     <app-flex>
         <app-flex basis="33.333333%">
-            <app-card title="echarts-pie">
+            <app-card>
+                <template #title>
+                    <a href="/reference/echarts-pie/">echarts-pie</a>
+                </template>
+
                 <echarts-pie />
             </app-card>
         </app-flex>
 
         <app-flex basis="33.333333%">
-            <app-card title="echarts-pie-annular">
+            <app-card>
+                <template #title>
+                    <a href="/reference/echarts-pie-annular/">echarts-pie-annular</a>
+                </template>
+
                 <echarts-pie-annular />
             </app-card>
         </app-flex>
 
         <app-flex basis="33.333333%">
-            <app-card title="echarts-pie-legend">
+            <app-card>
+                <template #title>
+                    <a href="/reference/echarts-pie-legend/">echarts-pie-legend</a>
+                </template>
+
                 <echarts-pie-legend />
             </app-card>
         </app-flex>
@@ -21,7 +33,7 @@
 </template>
 
 <script lang="ts" setup>
-import EchartsPie from './echarts-pie.vue'
-import EchartsPieAnnular from './echarts-pie-annular.vue'
-import EchartsPieLegend from './echarts-pie-legend.vue'
+import EchartsPie from '@/echarts/pie/echarts-pie.vue'
+import EchartsPieAnnular from '@/echarts/pie/echarts-pie-annular.vue'
+import EchartsPieLegend from '@/echarts/pie/echarts-pie-legend.vue'
 </script>

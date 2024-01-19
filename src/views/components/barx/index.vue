@@ -1,19 +1,31 @@
 <template>
     <app-flex>
         <app-flex basis="33.333333%">
-            <app-card title="echarts-barx">
+            <app-card>
+                <template #title>
+                    <a href="/reference/barx/echarts-barx/">echarts-barx</a>
+                </template>
+
                 <echarts-barx />
             </app-card>
         </app-flex>
 
         <app-flex basis="33.333333%">
-            <app-card title="echarts-barx-multiple">
+            <app-card>
+                <template #title>
+                    <a href="/reference/barx/echarts-barx-multiple/">echarts-barx-multiple</a>
+                </template>
+
                 <echarts-barx-multiple />
             </app-card>
         </app-flex>
 
         <app-flex basis="33.333333%">
-            <app-card title="echarts-barx-stack">
+            <app-card>
+                <template #title>
+                    <a href="/reference/barx/echarts-barx-stack/">echarts-barx-stack</a>
+                </template>
+
                 <echarts-barx-stack />
             </app-card>
         </app-flex>
@@ -21,19 +33,31 @@
 
     <app-flex>
         <app-flex basis="33.333333%">
-            <app-card title="echarts-barx-radius">
+            <app-card>
+                <template #title>
+                    <a href="/reference/barx/echarts-barx-radius/">echarts-barx-radius</a>
+                </template>
+
                 <echarts-barx-radius />
             </app-card>
         </app-flex>
 
         <app-flex basis="33.333333%">
-            <app-card title="echarts-barx-color">
+            <app-card>
+                <template #title>
+                    <a href="/reference/barx/echarts-barx-color/">echarts-barx-color</a>
+                </template>
+
                 <echarts-barx-color />
             </app-card>
         </app-flex>
 
         <app-flex basis="33.333333%">
-            <app-card title="echarts-barx-gradient">
+            <app-card>
+                <template #title>
+                    <a href="/reference/barx/echarts-barx-gradient/">echarts-barx-gradient</a>
+                </template>
+
                 <echarts-barx-gradient />
             </app-card>
         </app-flex>
@@ -41,7 +65,11 @@
 
     <app-flex>
         <app-flex basis="33.333333%">
-            <app-card title="echarts-barx-backgorund">
+            <app-card>
+                <template #title>
+                    <a href="/reference/barx/echarts-barx-backgorund/">echarts-barx-backgorund</a>
+                </template>
+
                 <echarts-barx-background />
             </app-card>
         </app-flex>
@@ -53,11 +81,11 @@
 </template>
 
 <script lang="ts" setup>
-import EchartsBarx from './echarts-barx.vue'
-import EchartsBarxMultiple from './echarts-barx-multiple.vue'
-import EchartsBarxStack from './echarts-barx-stack.vue'
-import EchartsBarxRadius from './echarts-barx-radius.vue'
-import EchartsBarxColor from './echarts-barx-color.vue'
-import EchartsBarxGradient from './echarts-barx-gradient.vue'
-import EchartsBarxBackground from './echarts-barx-background.vue'
+import EchartsBarx from '@/echarts/barx/echarts-barx.vue'
+import EchartsBarxMultiple from '@/echarts/barx/echarts-barx-multiple.vue'
+import EchartsBarxStack from '@/echarts/barx/echarts-barx-stack.vue'
+import EchartsBarxRadius from '@/echarts/barx/echarts-barx-radius.vue'
+import EchartsBarxColor from '@/echarts/barx/echarts-barx-color.vue'
+import EchartsBarxGradient from '@/echarts/barx/echarts-barx-gradient.vue'
+import EchartsBarxBackground from '@/echarts/barx/echarts-barx-background.vue'
 </script>

@@ -1,4 +1,5 @@
 import revise from './revise'
+import reference from './reference'
 
 const sidebar = {
     '/guide/': [
@@ -47,6 +48,7 @@ const sidebar = {
             ]
         }
     ],
+    ...reference,
     ...revise
 }
 

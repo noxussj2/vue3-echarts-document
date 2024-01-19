@@ -8,13 +8,13 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AppCard: typeof import('./../registered/app-card/index.vue')['default']
-    AppCardBlank: typeof import('./../registered/AppCardBlank.vue')['default']
-    AppComment: typeof import('./../registered/AppComment.vue')['default']
     AppFlex: typeof import('./../registered/app-flex/index.vue')['default']
-    AppImage: typeof import('./../registered/AppImage.vue')['default']
-    AppImage2: typeof import('./../registered/AppImage2.vue')['default']
-    AppPlayground: typeof import('./../registered/AppPlayground.vue')['default']
-    AppRead: typeof import('./../registered/AppRead.vue')['default']
-    AppVSCode: typeof import('./../registered/AppVSCode.vue')['default']
+    EchartsBarx: typeof import('./../echarts/barx/echarts-barx.vue')['default']
+    EchartsBarxBackground: typeof import('./../echarts/barx/echarts-barx-background.vue')['default']
+    EchartsBarxColor: typeof import('./../echarts/barx/echarts-barx-color.vue')['default']
+    EchartsBarxGradient: typeof import('./../echarts/barx/echarts-barx-gradient.vue')['default']
+    EchartsBarxMultiple: typeof import('./../echarts/barx/echarts-barx-multiple.vue')['default']
+    EchartsBarxRadius: typeof import('./../echarts/barx/echarts-barx-radius.vue')['default']
+    EchartsBarxStack: typeof import('./../echarts/barx/echarts-barx-stack.vue')['default']
   }
 }

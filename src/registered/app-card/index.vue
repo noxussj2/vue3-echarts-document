@@ -1,6 +1,6 @@
 <template>
     <div class="tip custom-block">
-        <p class="custom-block-title">{{ props.title }}</p>
+        <p class="custom-block-title"><slot name="title" /></p>
 
         <slot />
     </div>
@@ -14,3 +14,9 @@ const props = defineProps({
     }
 })
 </script>
+
+<style lang="scss" scoped>
+:deep(a){
+    color: var(--vp-custom-block-tip-text) !important;
+}
+</style>

@@ -1,19 +1,31 @@
 <template>
     <app-flex>
         <app-flex basis="33.333333%">
-            <app-card title="echarts-bary">
+            <app-card>
+                <template #title>
+                    <a href="/reference/echarts-bary/">echarts-bary</a>
+                </template>
+
                 <echarts-bary />
             </app-card>
         </app-flex>
 
         <app-flex basis="33.333333%">
-            <app-card title="echarts-bary-multiple">
+            <app-card>
+                <template #title>
+                    <a href="/reference/echarts-bary-multiple/">echarts-bary-multiple</a>
+                </template>
+
                 <echarts-bary-multiple />
             </app-card>
         </app-flex>
 
         <app-flex basis="33.333333%">
-            <app-card title="echarts-bary-stack">
+            <app-card>
+                <template #title>
+                    <a href="/reference/echarts-bary-stack/">echarts-bary-stack</a>
+                </template>
+
                 <echarts-bary-stack />
             </app-card>
         </app-flex>
@@ -21,19 +33,31 @@
 
     <app-flex>
         <app-flex basis="33.333333%">
-            <app-card title="echarts-bary-radius">
+            <app-card>
+                <template #title>
+                    <a href="/reference/echarts-bary-radius/">echarts-bary-radius</a>
+                </template>
+
                 <echarts-bary-radius />
             </app-card>
         </app-flex>
 
         <app-flex basis="33.333333%">
-            <app-card title="echarts-bary-color">
+            <app-card>
+                <template #title>
+                    <a href="/reference/echarts-bary-color/">echarts-bary-color</a>
+                </template>
+
                 <echarts-bary-color />
             </app-card>
         </app-flex>
 
         <app-flex basis="33.333333%">
-            <app-card title="echarts-bary-gradient">
+            <app-card>
+                <template #title>
+                    <a href="/reference/echarts-bary-gradient/">echarts-bary-gradient</a>
+                </template>
+
                 <echarts-bary-gradient />
             </app-card>
         </app-flex>
@@ -41,19 +65,31 @@
 
     <app-flex>
         <app-flex basis="33.333333%">
-            <app-card title="echarts-bary-backgorund">
+            <app-card>
+                <template #title>
+                    <a href="/reference/echarts-bary-backgorund/">echarts-bary-backgorund</a>
+                </template>
+
                 <echarts-bary-background />
             </app-card>
         </app-flex>
 
         <app-flex basis="33.333333%">
-            <app-card title="echarts-bary-label">
+            <app-card>
+                <template #title>
+                    <a href="/reference/echarts-bary-label/">echarts-bary-label</a>
+                </template>
+
                 <echarts-bary-label />
             </app-card>
         </app-flex>
 
         <app-flex basis="33.333333%">
-            <app-card title="echarts-bary-label">
+            <app-card>
+                <template #title>
+                    <a href="/reference/echarts-bary-label/">echarts-bary-label</a>
+                </template>
+
                 <echarts-bary-label />
             </app-card>
         </app-flex>
@@ -61,12 +97,12 @@
 </template>
 
 <script lang="ts" setup>
-import EchartsBary from './echarts-bary.vue'
-import EchartsBaryMultiple from './echarts-bary-multiple.vue'
-import EchartsBaryStack from './echarts-bary-stack.vue'
-import EchartsBaryRadius from './echarts-bary-radius.vue'
-import EchartsBaryColor from './echarts-bary-color.vue'
-import EchartsBaryGradient from './echarts-bary-gradient.vue'
-import EchartsBaryBackground from './echarts-bary-background.vue'
-import EchartsBaryLabel from './echarts-bary-label.vue'
+import EchartsBary from '@/echarts/bary/echarts-bary.vue'
+import EchartsBaryMultiple from '@/echarts/bary/echarts-bary-multiple.vue'
+import EchartsBaryStack from '@/echarts/bary/echarts-bary-stack.vue'
+import EchartsBaryRadius from '@/echarts/bary/echarts-bary-radius.vue'
+import EchartsBaryColor from '@/echarts/bary/echarts-bary-color.vue'
+import EchartsBaryGradient from '@/echarts/bary/echarts-bary-gradient.vue'
+import EchartsBaryBackground from '@/echarts/bary/echarts-bary-background.vue'
+import EchartsBaryLabel from '@/echarts/bary/echarts-bary-label.vue'
 </script>
