@@ -8,6 +8,7 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AppCard: typeof import('./../registered/app-card/index.vue')['default']
+    AppComment: typeof import('./../registered/app-comment/index.vue')['default']
     AppFlex: typeof import('./../registered/app-flex/index.vue')['default']
     EchartsBarx: typeof import('./../echarts/barx/echarts-barx.vue')['default']
     EchartsBarxBackground: typeof import('./../echarts/barx/echarts-barx-background.vue')['default']
