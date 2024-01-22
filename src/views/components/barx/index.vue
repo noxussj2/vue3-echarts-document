@@ -67,7 +67,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/barx/echarts-barx-backgorund/">echarts-barx-backgorund</a>
+                    <a href="/reference/barx/echarts-barx-background/">echarts-barx-background</a>
                 </template>
 
                 <echarts-barx-background />

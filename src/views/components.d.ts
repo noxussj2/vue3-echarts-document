@@ -10,12 +10,5 @@ declare module 'vue' {
     AppCard: typeof import('./../registered/app-card/index.vue')['default']
     AppComment: typeof import('./../registered/app-comment/index.vue')['default']
     AppFlex: typeof import('./../registered/app-flex/index.vue')['default']
-    EchartsBarx: typeof import('./../echarts/barx/echarts-barx.vue')['default']
-    EchartsBarxBackground: typeof import('./../echarts/barx/echarts-barx-background.vue')['default']
-    EchartsBarxColor: typeof import('./../echarts/barx/echarts-barx-color.vue')['default']
-    EchartsBarxGradient: typeof import('./../echarts/barx/echarts-barx-gradient.vue')['default']
-    EchartsBarxMultiple: typeof import('./../echarts/barx/echarts-barx-multiple.vue')['default']
-    EchartsBarxRadius: typeof import('./../echarts/barx/echarts-barx-radius.vue')['default']
-    EchartsBarxStack: typeof import('./../echarts/barx/echarts-barx-stack.vue')['default']
   }
 }

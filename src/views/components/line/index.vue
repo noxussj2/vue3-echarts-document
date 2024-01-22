@@ -3,7 +3,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-line/">echarts-line</a>
+                    <a href="/reference/line/echarts-line/">echarts-line</a>
                 </template>
 
                 <echarts-line />
@@ -13,7 +13,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-line-multiple/">echarts-line-multiple</a>
+                    <a href="/reference/line/echarts-line-multiple/">echarts-line-multiple</a>
                 </template>
 
                 <echarts-line-multiple />
@@ -23,7 +23,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-line-smooth/">echarts-line-smooth</a>
+                    <a href="/reference/line/echarts-line-smooth/">echarts-line-smooth</a>
                 </template>
 
                 <echarts-line-smooth />
@@ -35,7 +35,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-line-gradient/">echarts-line-gradient</a>
+                    <a href="/reference/line/echarts-line-gradient/">echarts-line-gradient</a>
                 </template>
 
                 <echarts-line-gradient />

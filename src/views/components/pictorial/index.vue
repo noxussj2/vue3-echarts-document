@@ -3,7 +3,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-pictorial/">echarts-pictorial</a>
+                    <a href="/reference/pictorial/echarts-pictorial/">echarts-pictorial</a>
                 </template>
 
                 <echarts-pictorial />
@@ -13,7 +13,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-pictorial-gradient/">echarts-pictorial-gradient</a>
+                    <a href="/reference/pictorial/echarts-pictorial-gradient/">echarts-pictorial-gradient</a>
                 </template>
 
                 <echarts-pictorial-gradient />
@@ -23,7 +23,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-pictorial-battery/">echarts-pictorial-battery</a>
+                    <a href="/reference/pictorial/echarts-pictorial-battery/">echarts-pictorial-battery</a>
                 </template>
 
                 <echarts-pictorial-battery />
@@ -35,7 +35,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-pictorial-spirit/">echarts-pictorial-spirit</a>
+                    <a href="/reference/pictorial/echarts-pictorial-spirit/">echarts-pictorial-spirit</a>
                 </template>
 
                 <echarts-pictorial-spirit />

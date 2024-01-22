@@ -3,7 +3,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-bary/">echarts-bary</a>
+                    <a href="/reference/bary/echarts-bary/">echarts-bary</a>
                 </template>
 
                 <echarts-bary />
@@ -13,7 +13,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-bary-multiple/">echarts-bary-multiple</a>
+                    <a href="/reference/bary/echarts-bary-multiple/">echarts-bary-multiple</a>
                 </template>
 
                 <echarts-bary-multiple />
@@ -23,7 +23,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-bary-stack/">echarts-bary-stack</a>
+                    <a href="/reference/bary/echarts-bary-stack/">echarts-bary-stack</a>
                 </template>
 
                 <echarts-bary-stack />
@@ -35,7 +35,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-bary-radius/">echarts-bary-radius</a>
+                    <a href="/reference/bary/echarts-bary-radius/">echarts-bary-radius</a>
                 </template>
 
                 <echarts-bary-radius />
@@ -45,7 +45,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-bary-color/">echarts-bary-color</a>
+                    <a href="/reference/bary/echarts-bary-color/">echarts-bary-color</a>
                 </template>
 
                 <echarts-bary-color />
@@ -55,7 +55,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-bary-gradient/">echarts-bary-gradient</a>
+                    <a href="/reference/bary/echarts-bary-gradient/">echarts-bary-gradient</a>
                 </template>
 
                 <echarts-bary-gradient />
@@ -67,7 +67,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-bary-backgorund/">echarts-bary-backgorund</a>
+                    <a href="/reference/bary/echarts-bary-backgorund/">echarts-bary-backgorund</a>
                 </template>
 
                 <echarts-bary-background />
@@ -77,7 +77,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-bary-label/">echarts-bary-label</a>
+                    <a href="/reference/bary/echarts-bary-label/">echarts-bary-label</a>
                 </template>
 
                 <echarts-bary-label />
@@ -87,7 +87,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-bary-label/">echarts-bary-label</a>
+                    <a href="/reference/bary/echarts-bary-label/">echarts-bary-label</a>
                 </template>
 
                 <echarts-bary-label />

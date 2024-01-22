@@ -3,7 +3,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-pie/">echarts-pie</a>
+                    <a href="/reference/pie/echarts-pie/">echarts-pie</a>
                 </template>
 
                 <echarts-pie />
@@ -13,7 +13,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-pie-annular/">echarts-pie-annular</a>
+                    <a href="/reference/pie/echarts-pie-annular/">echarts-pie-annular</a>
                 </template>
 
                 <echarts-pie-annular />
@@ -23,7 +23,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/echarts-pie-legend/">echarts-pie-legend</a>
+                    <a href="/reference/pie/echarts-pie-legend/">echarts-pie-legend</a>
                 </template>
 
                 <echarts-pie-legend />
