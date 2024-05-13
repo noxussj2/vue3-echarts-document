@@ -10,7 +10,7 @@ import EchartsBarxGradient from '@/echarts/barx/echarts-barx-gradient.vue'
 
 ```vue
 <template>
-    <echarts-barx :data="data" height="200px" :gradient-color="gradientColor" />
+    <echarts-barx :data="data" height="200px" :color="color" />
 </template>
 
 <script lang="ts" setup>
@@ -27,20 +27,43 @@ const data = ref({
     ]
 })
 
-const gradientColor = ['#B392F0', '#E1E4E8']
+const color = [
+    {
+        type: 'linear',
+        x: 0,
+        y: 0,
+        x2: 0,
+        y2: 1,
+        colorStops: [
+            {
+                offset: 0,
+                color: '#B392F0'
+            },
+            {
+                offset: 1,
+                color: '#E1E4E8'
+            }
+        ]
+    }
+]
 </script>
 ```
 
 ## props
 
-| 参数            | 说明         | 类型       | 默认值  |
-| --------------- | ------------ | ---------- | ------- |
-| height          | 容器高度     | `string`   | `100%`  |
-| data            | 数据源       | `object`   | `-`     |
-| color           | 柱状图颜色   | `array`    | `-`     |
-| bar-width       | 柱状图宽度   | `number`   | `15`    |
-| stack           | 是否堆叠     | `boolean`  | `false` |
-| radius          | 圆角         | `number`   | `0`     |
-| single-color    | 是否独立颜色 | `boolean`  | `false` |
-| gradient-color  | 渐变颜色     | `string[]` | `[]`    |
-| show-background | 是否显示背景 | `boolean`  | `false` |
+| 参数             | 说明             | 类型      | 默认值     |
+| ---------------- | ---------------- | --------- | ---------- |
+| width            | 容器高度         | `string`  | `100%`     |
+| height           | 容器高度         | `string`  | `100%`     |
+| data             | 数据源           | `object`  | `-`        |
+| color            | 柱状图颜色       | `array`   | `-`        |
+| bar-width        | 柱状图宽度       | `number`  | `15`       |
+| stack            | 是否堆叠         | `boolean` | `false`    |
+| radius           | 圆角             | `number`  | `0`        |
+| single-color     | 是否独立颜色     | `boolean` | `false`    |
+| show-background  | 是否显示背景     | `boolean` | `false`    |
+| data-zoom        | 是否显示可视区域 | `boolean` | `false`    |
+| data-zoom-number | 可视区域显示数量 | `number`  | `4`        |
+| data-zoom-color  | 可视区域工具颜色 | `string`  | `color[0]` |
+| carousel         | 是否启用数据轮播 | `boolean` | `false`    |
+| interval         | 数据轮播间隔时间 | `number`  | `5`        |

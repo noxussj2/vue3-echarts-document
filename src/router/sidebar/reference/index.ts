@@ -36,15 +36,33 @@ export default {
                     items: []
                 },
                 {
+                    text: 'echarts-barx-background',
+                    collapsable: false,
+                    link: '/reference/barx/echarts-barx-background/',
+                    items: []
+                },
+                {
                     text: 'echarts-barx-gradient',
                     collapsable: false,
                     link: '/reference/barx/echarts-barx-gradient/',
                     items: []
                 },
                 {
-                    text: 'echarts-barx-background',
+                    text: 'echarts-barx-gradients',
                     collapsable: false,
-                    link: '/reference/barx/echarts-barx-background/',
+                    link: '/reference/barx/echarts-barx-gradients/',
+                    items: []
+                },
+                {
+                    text: 'echarts-barx-zoom',
+                    collapsable: false,
+                    link: '/reference/barx/echarts-barx-zoom/',
+                    items: []
+                },
+                {
+                    text: 'echarts-barx-carousel',
+                    collapsable: false,
+                    link: '/reference/barx/echarts-barx-carousel/',
                     items: []
                 }
             ]

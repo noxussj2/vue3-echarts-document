@@ -67,7 +67,7 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/bary/echarts-bary-backgorund/">echarts-bary-backgorund</a>
+                    <a href="/reference/bary/echarts-bary-background/">echarts-bary-background</a>
                 </template>
 
                 <echarts-bary-background />

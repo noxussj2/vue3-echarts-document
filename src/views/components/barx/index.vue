@@ -55,10 +55,10 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/barx/echarts-barx-gradient/">echarts-barx-gradient</a>
+                    <a href="/reference/barx/echarts-barx-background/">echarts-barx-background</a>
                 </template>
 
-                <echarts-barx-gradient />
+                <echarts-barx-background />
             </app-card>
         </app-flex>
     </app-flex>
@@ -67,10 +67,42 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/barx/echarts-barx-background/">echarts-barx-background</a>
+                    <a href="/reference/barx/echarts-barx-gradient/">echarts-barx-gradient</a>
                 </template>
 
-                <echarts-barx-background />
+                <echarts-barx-gradient />
+            </app-card>
+        </app-flex>
+
+        <app-flex basis="33.333333%">
+            <app-card>
+                <template #title>
+                    <a href="/reference/barx/echarts-barx-gradients/">echarts-barx-gradients</a>
+                </template>
+
+                <echarts-barx-gradients />
+            </app-card>
+        </app-flex>
+
+        <app-flex basis="33.333333%">
+            <app-card>
+                <template #title>
+                    <a href="/reference/barx/echarts-barx-zoom/">echarts-barx-zoom</a>
+                </template>
+
+                <echarts-barx-zoom />
+            </app-card>
+        </app-flex>
+    </app-flex>
+
+    <app-flex>
+        <app-flex basis="33.333333%">
+            <app-card>
+                <template #title>
+                    <a href="/reference/barx/echarts-barx-carousel/">echarts-barx-carousel</a>
+                </template>
+
+                <echarts-barx-carousel />
             </app-card>
         </app-flex>
 
@@ -87,5 +119,8 @@ import EchartsBarxStack from '@/echarts/barx/echarts-barx-stack.vue'
 import EchartsBarxRadius from '@/echarts/barx/echarts-barx-radius.vue'
 import EchartsBarxColor from '@/echarts/barx/echarts-barx-color.vue'
 import EchartsBarxGradient from '@/echarts/barx/echarts-barx-gradient.vue'
+import EchartsBarxGradients from '@/echarts/barx/echarts-barx-gradients.vue'
 import EchartsBarxBackground from '@/echarts/barx/echarts-barx-background.vue'
+import EchartsBarxZoom from '@/echarts/barx/echarts-barx-zoom.vue'
+import EchartsBarxCarousel from '@/echarts/barx/echarts-barx-carousel.vue'
 </script>
