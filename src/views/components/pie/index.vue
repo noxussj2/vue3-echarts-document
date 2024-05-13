@@ -13,22 +13,46 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/pie/echarts-pie-annular/">echarts-pie-annular</a>
-                </template>
-
-                <echarts-pie-annular />
-            </app-card>
-        </app-flex>
-
-        <app-flex basis="33.333333%">
-            <app-card>
-                <template #title>
                     <a href="/reference/pie/echarts-pie-legend/">echarts-pie-legend</a>
                 </template>
 
                 <echarts-pie-legend />
             </app-card>
         </app-flex>
+
+        <app-flex basis="33.333333%">
+            <app-card>
+                <template #title>
+                    <a href="/reference/pie/echarts-pie-annular/">echarts-pie-annular</a>
+                </template>
+
+                <echarts-pie-annular />
+            </app-card>
+        </app-flex>
+    </app-flex>
+
+    <app-flex>
+        <app-flex basis="33.333333%">
+            <app-card>
+                <template #title>
+                    <a href="/reference/pie/echarts-pie-petal/">echarts-pie-petal</a>
+                </template>
+
+                <echarts-pie-petal />
+            </app-card>
+        </app-flex>
+
+        <app-flex basis="33.333333%">
+            <app-card>
+                <template #title>
+                    <a href="/reference/pie/echarts-pie-carousel/">echarts-pie-carousel</a>
+                </template>
+
+                <echarts-pie-carousel />
+            </app-card>
+        </app-flex>
+
+        <app-flex basis="33.333333%" />
     </app-flex>
 </template>
 
@@ -36,4 +60,6 @@
 import EchartsPie from '@/echarts/pie/echarts-pie.vue'
 import EchartsPieAnnular from '@/echarts/pie/echarts-pie-annular.vue'
 import EchartsPieLegend from '@/echarts/pie/echarts-pie-legend.vue'
+import EchartsPiePetal from '@/echarts/pie/echarts-pie-petal.vue'
+import EchartsPieCarousel from '@/echarts/pie/echarts-pie-carousel.vue'
 </script>

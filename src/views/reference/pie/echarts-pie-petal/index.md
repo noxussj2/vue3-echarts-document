@@ -1,16 +1,16 @@
 <script lang="ts" setup>
-import EchartsPieLegend from '@/echarts/pie/echarts-pie-legend.vue'
+import EchartsPiePetal from '@/echarts/pie/echarts-pie-petal.vue'
 </script>
 
-# echarts-pie-legend
+# echarts-pie-petal
 
 :::tip 示例
-<echarts-pie-legend />
+<echarts-pie-petal />
 :::
 
 ```vue
 <template>
-    <echarts-pie :data="data" height="200px" :color="color" :center="center" legend />
+    <echarts-pie :data="data" height="200px" :color="color" label />
 </template>
 
 <script lang="ts" setup>
@@ -18,17 +18,15 @@ import { ref } from 'vue'
 import { EchartsPie } from 'v3-echarts'
 
 const data = ref([
-    { name: '衬衫', value: 5, unit: '件' },
-    { name: '羊毛衫', value: 20, unit: '件' },
-    { name: '雪纺衫', value: 36, unit: '件' },
-    { name: '裤子', value: 10, unit: '件' },
-    { name: '高跟鞋', value: 10, unit: '件' },
-    { name: '袜子', value: 20, unit: '件' }
+    { name: '衬衫', value: 5 },
+    { name: '羊毛衫', value: 20 },
+    { name: '雪纺衫', value: 36 },
+    { name: '裤子', value: 10 },
+    { name: '高跟鞋', value: 10 },
+    { name: '袜子', value: 20 }
 ])
 
 const color = ['#006eff', '#29cc85', '#ffbb00', '#ff584c', '#9741d9', '#1fc0cc']
-
-const center = ['30%', '50%']
 </script>
 ```
 
