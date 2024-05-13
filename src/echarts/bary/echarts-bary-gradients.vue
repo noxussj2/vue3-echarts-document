@@ -10,8 +10,12 @@ const data = ref({
     axis: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子'],
     series: [
         {
-            name: '销量',
+            name: '2023 销量',
             data: [5, 20, 36, 10, 10, 20]
+        },
+        {
+            name: '2024 销量',
+            data: [10, 10, 5, 60, 30, 40]
         }
     ]
 })
@@ -27,6 +31,23 @@ const color = [
             {
                 offset: 0,
                 color: '#B392F0'
+            },
+            {
+                offset: 1,
+                color: '#E1E4E8'
+            }
+        ]
+    },
+    {
+        type: 'linear',
+        x: 1,
+        y: 0,
+        x2: 0,
+        y2: 0,
+        colorStops: [
+            {
+                offset: 0,
+                color: '#85E89D'
             },
             {
                 offset: 1,
