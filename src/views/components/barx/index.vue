@@ -106,7 +106,15 @@
             </app-card>
         </app-flex>
 
-        <app-flex basis="33.333333%" />
+        <app-flex basis="33.333333%">
+            <app-card>
+                <template #title>
+                    <a href="/reference/barx/echarts-barx-line/">echarts-barx-line</a>
+                </template>
+
+                <echarts-barx-line />
+            </app-card>
+        </app-flex>
 
         <app-flex basis="33.333333%" />
     </app-flex>
@@ -123,4 +131,5 @@ import EchartsBarxGradients from '@/echarts/barx/echarts-barx-gradients.vue'
 import EchartsBarxBackground from '@/echarts/barx/echarts-barx-background.vue'
 import EchartsBarxZoom from '@/echarts/barx/echarts-barx-zoom.vue'
 import EchartsBarxCarousel from '@/echarts/barx/echarts-barx-carousel.vue'
+import EchartsBarxLine from '@/echarts/barx/echarts-barx-line.vue'
 </script>
