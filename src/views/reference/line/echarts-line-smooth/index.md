@@ -31,10 +31,11 @@ const data = ref({
 
 ## props
 
-| 参数           | 说明     | 类型       | 默认值  |
-| -------------- | -------- | ---------- | ------- |
-| height         | 容器高度 | `string`   | `100%`  |
-| data           | 数据源   | `object`   | `-`     |
-| color          | 折线颜色 | `array`    | `-`     |
-| smooth         | 是否曲线 | `boolean`  | `false` |
-| gradient-color | 渐变颜色 | `string[]` | `[]`    |
+| 参数         | 说明             | 类型      | 默认值  |
+| ------------ | ---------------- | --------- | ------- |
+| width        | 容器高度         | `string`  | `100%`  |
+| height       | 容器高度         | `string`  | `100%`  |
+| data         | 数据源           | `object`  | `-`     |
+| color        | 折线颜色         | `array`   | `-`     |
+| smooth       | 是否曲线         | `boolean` | `false` |
+| areaGradient | 是否开启区域渐变 | `boolean` | `false` |

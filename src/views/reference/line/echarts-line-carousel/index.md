@@ -1,16 +1,16 @@
 <script lang="ts" setup>
-import EchartsLineMultiple from '@/echarts/line/echarts-line-multiple.vue'
+import EchartsLineCarousel from '@/echarts/line/echarts-line-carousel.vue'
 </script>
 
-# echarts-line-multiple
+# echarts-line-carousel
 
 :::tip 示例
-<echarts-line-multiple />
+<echarts-line-carousel />
 :::
 
 ```vue
 <template>
-    <echarts-line :data="data" height="200px" />
+    <echarts-line :data="data" height="200px" data-zoom carousel />
 </template>
 
 <script lang="ts" setup>
@@ -21,12 +21,8 @@ const data = ref({
     axis: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子'],
     series: [
         {
-            name: '2023 销量',
+            name: '销量',
             data: [5, 20, 36, 10, 10, 20]
-        },
-        {
-            name: '2024 销量',
-            data: [10, 10, 5, 60, 30, 40]
         }
     ]
 })

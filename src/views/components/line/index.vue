@@ -42,9 +42,25 @@
             </app-card>
         </app-flex>
 
-        <app-flex basis="33.333333%" />
+        <app-flex basis="33.333333%">
+            <app-card>
+                <template #title>
+                    <a href="/reference/line/echarts-line-zoom/">echarts-line-zoom</a>
+                </template>
 
-        <app-flex basis="33.333333%" />
+                <echarts-line-zoom />
+            </app-card>
+        </app-flex>
+
+        <app-flex basis="33.333333%">
+            <app-card>
+                <template #title>
+                    <a href="/reference/line/echarts-line-carousel/">echarts-line-carousel</a>
+                </template>
+
+                <echarts-line-carousel />
+            </app-card>
+        </app-flex>
     </app-flex>
 </template>
 
@@ -53,4 +69,6 @@ import EchartsLine from '@/echarts/line/echarts-line.vue'
 import EchartsLineMultiple from '@/echarts/line/echarts-line-multiple.vue'
 import EchartsLineSmooth from '@/echarts/line/echarts-line-smooth.vue'
 import EchartsLineGradient from '@/echarts/line/echarts-line-gradient.vue'
+import EchartsLineZoom from '@/echarts/line/echarts-line-zoom.vue'
+import EchartsLineCarousel from '@/echarts/line/echarts-line-carousel.vue'
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <echarts-line :data="data" height="200px" smooth area-gradient />
+    <echarts-line :data="data" height="200px" data-zoom carousel />
 </template>
 
 <script lang="ts" setup>
