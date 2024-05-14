@@ -23,6 +23,7 @@ const radius = ['40%', '60%']
  * 数据轮播
  */
 const carousel = (index :any) => {
-    console.log(index)
+
+    // console.log(index)
 }
 </script>
