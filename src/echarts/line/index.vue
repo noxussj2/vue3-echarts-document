@@ -65,10 +65,10 @@
 </template>
 
 <script lang="ts" setup>
-import EchartsLine from '@/echarts/line/echarts-line.vue'
-import EchartsLineMultiple from '@/echarts/line/echarts-line-multiple.vue'
-import EchartsLineSmooth from '@/echarts/line/echarts-line-smooth.vue'
-import EchartsLineGradient from '@/echarts/line/echarts-line-gradient.vue'
-import EchartsLineZoom from '@/echarts/line/echarts-line-zoom.vue'
-import EchartsLineCarousel from '@/echarts/line/echarts-line-carousel.vue'
+import EchartsLine from './echarts-line.vue'
+import EchartsLineMultiple from './echarts-line-multiple.vue'
+import EchartsLineSmooth from './echarts-line-smooth.vue'
+import EchartsLineGradient from './echarts-line-gradient.vue'
+import EchartsLineZoom from './echarts-line-zoom.vue'
+import EchartsLineCarousel from './echarts-line-carousel.vue'
 </script>

@@ -116,20 +116,46 @@
             </app-card>
         </app-flex>
 
+        <app-flex basis="33.333333%">
+            <app-card>
+                <template #title>
+                    <a href="/reference/barx/echarts-barx-pictorial/">echarts-barx-pictorial</a>
+                </template>
+
+                <echarts-barx-pictorial />
+            </app-card>
+        </app-flex>
+    </app-flex>
+
+    <app-flex>
+        <app-flex basis="33.333333%">
+            <app-card>
+                <template #title>
+                    <a href="/reference/barx/echarts-barx-battery/">echarts-barx-battery</a>
+                </template>
+
+                <echarts-barx-battery />
+            </app-card>
+        </app-flex>
+
+        <app-flex basis="33.333333%" />
+
         <app-flex basis="33.333333%" />
     </app-flex>
 </template>
 
 <script lang="ts" setup>
-import EchartsBarx from '@/echarts/barx/echarts-barx.vue'
-import EchartsBarxMultiple from '@/echarts/barx/echarts-barx-multiple.vue'
-import EchartsBarxStack from '@/echarts/barx/echarts-barx-stack.vue'
-import EchartsBarxRadius from '@/echarts/barx/echarts-barx-radius.vue'
-import EchartsBarxColor from '@/echarts/barx/echarts-barx-color.vue'
-import EchartsBarxGradient from '@/echarts/barx/echarts-barx-gradient.vue'
-import EchartsBarxGradients from '@/echarts/barx/echarts-barx-gradients.vue'
-import EchartsBarxBackground from '@/echarts/barx/echarts-barx-background.vue'
-import EchartsBarxZoom from '@/echarts/barx/echarts-barx-zoom.vue'
-import EchartsBarxCarousel from '@/echarts/barx/echarts-barx-carousel.vue'
-import EchartsBarxLine from '@/echarts/barx/echarts-barx-line.vue'
+import EchartsBarx from './echarts-barx.vue'
+import EchartsBarxMultiple from './echarts-barx-multiple.vue'
+import EchartsBarxStack from './echarts-barx-stack.vue'
+import EchartsBarxRadius from './echarts-barx-radius.vue'
+import EchartsBarxColor from './echarts-barx-color.vue'
+import EchartsBarxGradient from './echarts-barx-gradient.vue'
+import EchartsBarxGradients from './echarts-barx-gradients.vue'
+import EchartsBarxBackground from './echarts-barx-background.vue'
+import EchartsBarxZoom from './echarts-barx-zoom.vue'
+import EchartsBarxCarousel from './echarts-barx-carousel.vue'
+import EchartsBarxLine from './echarts-barx-line.vue'
+import EchartsBarxPictorial from './echarts-barx-pictorial.vue'
+import EchartsBarxBattery from './echarts-barx-battery.vue'
 </script>

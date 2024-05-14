@@ -57,9 +57,9 @@
 </template>
 
 <script lang="ts" setup>
-import EchartsPie from '@/echarts/pie/echarts-pie.vue'
-import EchartsPieAnnular from '@/echarts/pie/echarts-pie-annular.vue'
-import EchartsPieLegend from '@/echarts/pie/echarts-pie-legend.vue'
-import EchartsPiePetal from '@/echarts/pie/echarts-pie-petal.vue'
-import EchartsPieCarousel from '@/echarts/pie/echarts-pie-carousel.vue'
+import EchartsPie from './echarts-pie.vue'
+import EchartsPieAnnular from './echarts-pie-annular.vue'
+import EchartsPieLegend from './echarts-pie-legend.vue'
+import EchartsPiePetal from './echarts-pie-petal.vue'
+import EchartsPieCarousel from './echarts-pie-carousel.vue'
 </script>

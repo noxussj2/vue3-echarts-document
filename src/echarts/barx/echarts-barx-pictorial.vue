@@ -1,5 +1,5 @@
 <template>
-    <echarts-barx :data="data" height="200px" pictorial />
+    <echarts-barx :data="data" height="200px" :bar-width="30" />
 </template>
 
 <script lang="ts" setup>
@@ -10,6 +10,7 @@ const data = ref({
     axis: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子'],
     series: [
         {
+            type: 'pictorialBar',
             name: '销量',
             data: [5, 20, 36, 10, 10, 20]
         }

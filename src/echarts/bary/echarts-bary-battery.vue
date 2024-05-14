@@ -1,10 +1,10 @@
 <template>
-    <echarts-pictorial-battery2 :data="data" height="200px" />
+    <echarts-bary-battery :data="data" height="200px" />
 </template>
 
 <script lang="ts" setup>
 import { ref } from 'vue'
-import { EchartsPictorialBattery2 } from 'v3-echarts'
+import { EchartsBaryBattery } from 'v3-echarts'
 
 const data = ref({
     axis: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子'],

@@ -4,11 +4,10 @@ layoutClass: layout-lines
 ---
 
 <script lang="ts" setup>
-import BarxIndex from './barx/index.vue'
-import BaryIndex from './bary/index.vue'
-import LineIndex from './line/index.vue'
-import PieIndex from './pie/index.vue'
-import PictorialIndex from './pictorial/index.vue'
+import BarxIndex from '@/echarts/barx/index.vue'
+import BaryIndex from '@/echarts/bary/index.vue'
+import LineIndex from '@/echarts/line/index.vue'
+import PieIndex from '@/echarts/pie/index.vue'
 </script>
 
 # 🍓 组件库
@@ -28,7 +27,3 @@ import PictorialIndex from './pictorial/index.vue'
 ## 饼图 `pie`
 
 <pie-index />
-
-## 象形图 `pictorial`
-
-<pictorial-index />
