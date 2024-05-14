@@ -23,10 +23,10 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/pictorial/echarts-pictorial-battery/">echarts-pictorial-battery</a>
+                    <a href="/reference/pictorial/echarts-pictorial-spirit/">echarts-pictorial-spirit</a>
                 </template>
 
-                <echarts-pictorial-battery />
+                <echarts-pictorial-spirit />
             </app-card>
         </app-flex>
     </app-flex>
@@ -35,14 +35,22 @@
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
-                    <a href="/reference/pictorial/echarts-pictorial-spirit/">echarts-pictorial-spirit</a>
+                    <a href="/reference/pictorial/echarts-pictorial-battery/">echarts-pictorial-battery</a>
                 </template>
 
-                <echarts-pictorial-spirit />
+                <echarts-pictorial-battery />
             </app-card>
         </app-flex>
 
-        <app-flex basis="33.333333%" />
+        <app-flex basis="33.333333%">
+            <app-card>
+                <template #title>
+                    <a href="/reference/pictorial/echarts-pictorial-battery2/">echarts-pictorial-battery2</a>
+                </template>
+
+                <echarts-pictorial-battery2 />
+            </app-card>
+        </app-flex>
 
         <app-flex basis="33.333333%" />
     </app-flex>
@@ -52,5 +60,6 @@
 import EchartsPictorial from '@/echarts/pictorial/echarts-pictorial.vue'
 import EchartsPictorialGradient from '@/echarts/pictorial/echarts-pictorial-gradient.vue'
 import EchartsPictorialBattery from '@/echarts/pictorial/echarts-pictorial-battery.vue'
+import EchartsPictorialBattery2 from '@/echarts/pictorial/echarts-pictorial-battery2.vue'
 import EchartsPictorialSpirit from '@/echarts/pictorial/echarts-pictorial-spirit.vue'
 </script>
