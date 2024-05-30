@@ -6,7 +6,7 @@
     const sftp = require('gulp-sftp-up4')
 
     const sftpConfig = {
-        host: '59.38.45.123', // 服务器地址
+        host: 'panel.noxussj.top', // 服务器地址
         user: 'root', // 帐号
         pass: 'abc998800440', // 密码
         port: 22, // 端口

@@ -1,0 +1,92 @@
+// 使用流媒体查询 miedia，分辨率宽度在 1230px 和 1242px 之间时使用样式
+
+@media (min-width: 1230px) and (max-width: 1250px) {
+    body {
+        width: 1242px;
+        height: 1660px;
+        overflow: scroll;
+    }
+
+    .container {
+        zoom: 2;
+    }
+
+    // 顶部导航条
+    .VPNav,
+    .VPLocalNav {
+        display: none;
+    }
+
+    // 侧边菜单
+    .VPSidebar {
+        display: none;
+    }
+
+    .VPContent.has-sidebar {
+        padding: 0 !important;
+    }
+
+    .content {
+        padding: 0 !important;
+    }
+
+    .content-container {
+        max-width: unset !important;
+    }
+
+    // 本页目录
+    .VPDocOutlineDropdown {
+        display: none !important;
+    }
+
+    // 阅读数
+    .app-read {
+        display: none !important;
+    }
+
+    // 标题
+    .VPDoc {
+        padding: 60px !important;
+    }
+
+    // 评论
+    #waline {
+        display: none !important;
+    }
+
+    .lang {
+        padding-right: 20px;
+        padding-top: 20px;
+        font-size: 14px !important;
+    }
+
+    .vp-doc th,
+    .vp-doc td {
+        padding: 14px 16px !important;
+    }
+
+    .vp-doc {
+        [class*='language-'] code {
+            white-space: pre-wrap;
+        }
+    }
+
+    .VPFooter {
+        display: none;
+    }
+}
+
+@media (max-width: 1250px) {
+    .flex-echarts {
+        flex-direction: column !important;
+        gap: 0 !important;
+
+        > .app-flex {
+            width: 480px !important;
+
+            .echarts {
+                height: 300px !important;
+            }
+        }
+    }
+}

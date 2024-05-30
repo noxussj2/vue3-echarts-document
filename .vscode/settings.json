@@ -1,32 +1,23 @@
 {
-    "[vue]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-    },
     "[typescript]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-    },
-    "[cjs]": {
-        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
-    },
-    "[html]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "[json]": {
+    "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[vue]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[scss]": {
-        "editor.defaultFormatter": "stylelint.vscode-stylelint"
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "editor.formatOnSave": true,
-    "eslint.format.enable": true,
+    "eslint.validate": ["javascript", "javascriptreact", "vue", "vue-html", "vue-custom-block", "html", "typescript", "typescriptreact"],
     "stylelint.validate": ["css", "scss", "vue"],
     "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
         "source.fixAll.stylelint": true
     }
 }

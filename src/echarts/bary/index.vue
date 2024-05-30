@@ -1,5 +1,5 @@
 <template>
-    <app-flex>
+    <app-flex class="flex-echarts">
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
@@ -31,7 +31,7 @@
         </app-flex>
     </app-flex>
 
-    <app-flex>
+    <app-flex class="flex-echarts">
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
@@ -63,7 +63,7 @@
         </app-flex>
     </app-flex>
 
-    <app-flex>
+    <app-flex class="flex-echarts">
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>
@@ -95,7 +95,7 @@
         </app-flex>
     </app-flex>
 
-    <app-flex>
+    <app-flex class="flex-echarts">
         <app-flex basis="33.333333%">
             <app-card>
                 <template #title>

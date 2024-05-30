@@ -7,7 +7,8 @@
         "dev": "vitepress dev src/views --host",
         "build": "vitepress build src/views",
         "preview": "vitepress preview src/views",
-        "upload": "gulp upload"
+        "upload": "gulp upload",
+        "postbuild": "npm run upload"
     },
     "dependencies": {
         "@icon-park/vue-next": "^1.4.2",
@@ -32,6 +33,6 @@
         "sass": "^1.69.0",
         "typescript": "^5.3.3",
         "unplugin-vue-components": "^0.26.0",
-        "v3-echarts": "^1.3.1"
+        "v3-echarts": "^1.3.7"
     }
 }

@@ -14,6 +14,7 @@ import "../../../../echarts.config"
  */
 import '@/styles/reset-vitepress.scss'
 import '@/styles/index.scss'
+import '@/styles/redbook.scss'
 
 export default {
     extends: Theme,

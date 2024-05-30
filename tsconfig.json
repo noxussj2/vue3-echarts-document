@@ -2,9 +2,21 @@
     "compilerOptions": {
         "baseUrl": "./",
         "paths": {
-            "@/*": ["./src/*"],
-            "config/*": ["./config/*"]
+            "@/*": [
+                "./src/*"
+            ],
+            "config/*": [
+                "./config/*"
+            ],
+            "v3-echarts": [
+                "./node_modules/v3-echarts/dist/index.d.ts"
+            ],
         }
     },
-    "include": ["./src/views/.vitepress/**/*", "./src/**/*", "./src/views/components.d.ts"]
+    "include": [
+        "./src/views/.vitepress/**/*",
+        "./src/**/*",
+        "./src/views/components.d.ts",
+        "src/**/*.vue",
+    ]
 }

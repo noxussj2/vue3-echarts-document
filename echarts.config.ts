@@ -1,4 +1,5 @@
-import { loadStyle } from 'v3-echarts'
+import * as v3Echarts from 'v3-echarts'
+const { loadStyle } = v3Echarts
 
 const $color = {
 
