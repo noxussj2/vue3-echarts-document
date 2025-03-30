@@ -1,35 +1,39 @@
 <template>
     <div class="base-gpt-chat">
-        <img class="chat-button" src="/openai2.png" @click="btnClick" />
+        <img class="chat-button" src="/openai2.png" @click="btnClick">
 
         <el-dialog v-model="dialogTableVisible" title="OpenAI GPT" :close-on-click-modal="false" align-center>
-            <div class="container" ref="scrollContainer">
-                <div class="item" v-for="(item, index) in _message" :key="index" :class="{ assistant: item.role === 'assistant' }">
+            <div ref="scrollContainer" class="container">
+                <div v-for="(item, index) in _message" :key="index" class="item" :class="{ assistant: item.role === 'assistant' }">
                     <template v-if="item.role === 'user'">
-                        <p v-html="item.content"></p>
-                        <img alt="" src="/logo.png" />
+                        <p v-html="item.content" />
+
+                        <img alt="" src="/logo.png">
                     </template>
 
                     <template v-if="item.role === 'assistant'">
-                        <img alt="" src="/openai.png" />
-                        <div v-loading="loading && index === message.length - 1"></div>
-                        <p v-html="item.content"></p>
+                        <img alt="" src="/openai.png">
+
+                        <div v-loading="loading && index === message.length - 1" />
+
+                        <p v-html="item.content" />
                     </template>
                 </div>
             </div>
 
             <template #footer>
-                <el-input class="search" v-model="input" placeholder="请输入需要提问的内容" @keyup.enter="handleEnter" :disabled="inputDisabled" />
+                <el-input v-model="input" class="search" placeholder="请输入需要提问的内容" :disabled="inputDisabled" @keyup.enter="handleEnter" />
             </template>
         </el-dialog>
     </div>
 </template>
 
 <script lang="ts" setup>
-import { ref, nextTick, computed } from 'vue'
+import { computed, nextTick, ref } from 'vue'
 import { ElLoading } from 'element-plus'
 import { getItem, setItem } from '@/utils/local-storage'
-import { loginRead } from '@/utils/login-read'
+
+// import { loginRead } from '@/utils/login-read'
 
 import { _fetch } from '@/utils/fetch'
 import * as MarkdownIt from 'markdown-it'
@@ -70,7 +74,8 @@ const _message = computed(() => {
     const res = []
 
     message.value.forEach((x: any) => {
-        let content: any = md.render(x.content)
+        const content: any = md.render(x.content)
+
         // content = content.replaceAll(/>\n/g, '>')
         res.push({ ...x, content })
     })
@@ -87,7 +92,8 @@ const scrollContainer = ref(null)
  */
 const btnClick = () => {
     dialogTableVisible.value = true
-    loginRead('n10020')
+
+    // loginRead('n10020')
 
     nextTick(() => {
         scrollContainer.value.scrollTop = scrollContainer.value.scrollHeight

@@ -17,7 +17,7 @@
     "eslint.validate": ["javascript", "javascriptreact", "vue", "vue-html", "vue-custom-block", "html", "typescript", "typescriptreact"],
     "stylelint.validate": ["css", "scss", "vue"],
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
-        "source.fixAll.stylelint": true
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll.stylelint": "explicit"
     }
 }

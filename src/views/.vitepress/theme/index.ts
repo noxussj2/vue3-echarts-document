@@ -6,7 +6,7 @@ import { useData } from 'vitepress'
 import Theme from 'vitepress/theme'
 import './style.css'
 import registerElementPlus from '@/plugins/element-plus'
-import './visitor' // 访客登记
+// import './visitor' // 访客登记
 import "../../../../echarts.config"
 
 /**

@@ -23,9 +23,9 @@ import BaseCard from "./components/base-card.vue"
 import BaseCode from "@/components/baseCode.vue"
 
 import { stage1 } from "./data"
-import { loginRead } from '@/utils/login-read'
+// import { loginRead } from '@/utils/login-read'
 
-loginRead('n10019')
+// loginRead('n10019')
 </script>
 
 # 小小菜园 <Badge text="noxussj 1997" />

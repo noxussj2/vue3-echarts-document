@@ -31,14 +31,14 @@ features:
       details: 源代码公开，如有需要可拷贝源代码到项目中进行二次开发
 ---
 
-<BaseCount />
+<!-- <BaseCount /> -->
 
 <BaseComment />
 
 <script setup lang="ts">
 import BaseCount from '@/components/BaseCount.vue'
 import BaseComment from '@/components/BaseComment.vue'
-import { loginRead } from '@/utils/login-read'
+// import { loginRead } from '@/utils/login-read'
 
-loginRead('n10001')
+// loginRead('n10001')
 </script>
